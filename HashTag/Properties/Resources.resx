@@ -114,4 +114,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="MainForm_chooseFileButton_Click_Error__Could_not_read_file_from_disk" xml:space="preserve">
+    <value>Error: Could not read file from disk. Original error: </value>
+  </data>
+  <data name="CouldNotCalculateHash" xml:space="preserve">
+    <value>Error: Could not calculate hash.</value>
+  </data>
 </root>
