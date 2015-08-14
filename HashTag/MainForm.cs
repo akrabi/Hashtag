@@ -128,7 +128,7 @@ namespace HashTag
                         String content = fileStream.ReadToEnd();
                         string[] words = content.Split(' ');
                         {
-                            compareHashBox.Text = words[words.Length-1];
+                            compareHashBox.Text = words[0].ToUpperInvariant();
                             CompareHashes();
                         }
                     }
